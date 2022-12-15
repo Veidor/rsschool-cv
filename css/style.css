@@ -6,14 +6,13 @@
   padding: 0;
   margin: 0;
 }
-
 ul{
     list-style: none;
 }
 /* CSS Reset end */
 /* Variability Start */
 :root {
-    --main-color: #ea4a10;
+    --main-color: #f0ae12;
     --text-color: #363636;
     --white: #ffffff;
     --gray: #f3f4f5;
@@ -198,9 +197,6 @@ body{
     .contact__image_github{
         background-image: url(../images/github.svg);
     }
-    .contact__image_vk{
-        background-image: url(../images/vk.svg);
-    }
     .contact__image_telegram{
         background-image: url(../images/telegram.svg);
     }
@@ -351,12 +347,6 @@ body{
         width: 20px;
         height: 20px;
         margin-right: 10px;
-    }
-    .footer__social_yt{
-        background-image: url(../images/youtube.svg);
-        margin-right: 0;
-        width: 40px;
-        background-size: contain;
     }
     .footer__text{
         display: flex;
